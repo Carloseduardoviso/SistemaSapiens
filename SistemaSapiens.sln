@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaSapiens", "SistemaSapiens\SistemaSapiens.csproj", "{32BAECF1-8CF8-4D63-94CA-CBCE83EB7992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapiens.Shared", "Sapiens.Shared\Sapiens.Shared.csproj", "{FDFF7570-CD96-4CD1-BA97-DAD2DBADE20D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BAECF1-8CF8-4D63-94CA-CBCE83EB7992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BAECF1-8CF8-4D63-94CA-CBCE83EB7992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BAECF1-8CF8-4D63-94CA-CBCE83EB7992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BAECF1-8CF8-4D63-94CA-CBCE83EB7992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFF7570-CD96-4CD1-BA97-DAD2DBADE20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFF7570-CD96-4CD1-BA97-DAD2DBADE20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFF7570-CD96-4CD1-BA97-DAD2DBADE20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFF7570-CD96-4CD1-BA97-DAD2DBADE20D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DA4025D-65E6-44CB-ADD3-58F6380048D8}
+	EndGlobalSection
+EndGlobal
