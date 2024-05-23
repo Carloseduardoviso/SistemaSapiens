@@ -1,18 +1,11 @@
-﻿namespace Sapiens.Shared.Entities
-{
-    public class Aluno
-    {
-        public Guid AlunoId { get; set; }
-        public string? Nome { get; set; }
-        public List<Disciplina>? Disciplinas { get; set; }
-        public Aluno()
-        {
-            Disciplinas = new();
-        }
+﻿using Sapiens.Shared.Enums;
 
-        public override string ToString()
-        {
-            return $"Aluno: {Nome}";
-        }
+namespace Sapiens.Shared.Entities
+{
+    public class Aluno : Pessoa
+    {
+        public string? Matricula { get; set; }
+        public SituacaoAluno? Situacao { get; set; }
+        public List<Disciplina> Disciplinas { get; set; } = new List<Disciplina>();
     }
 }

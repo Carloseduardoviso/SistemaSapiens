@@ -1,16 +1,7 @@
 ﻿namespace Sapiens.Shared.Entities
 {
-    public class Coordenador : Funcionario
+    public class Coordenador : Professor
     {
-        public List<Curso>? Cursos { get; set; }
-        public Coordenador()
-        {
-            Cursos = new();
-        }
-
-        public override string ToString()
-        {
-            return $"Coordenador: {Nome}, Cargo: {Cargo}";
-        }
+        public string? Cargo { get; set; }
     }
 }

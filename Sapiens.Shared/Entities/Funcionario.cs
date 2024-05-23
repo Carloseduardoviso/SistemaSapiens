@@ -1,13 +1,10 @@
-﻿namespace Sapiens.Shared.Entities;
+﻿using Sapiens.Shared.Enums;
 
-public class Funcionario
+namespace Sapiens.Shared.Entities;
+
+public class Funcionario : Pessoa
 {
-    public Guid FuncionarioId { get; set; }
-    public string? Nome { get; set; }
+    public decimal Salario { get; set; }
+    public SituacaoFuncionario? Situacao { get; set; }
     public string? Cargo { get; set; }
-
-    public override string ToString()
-    {
-        return $"Funcionario: {Nome}, Cargo: {Cargo}";
-    }
 }
